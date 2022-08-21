@@ -17,5 +17,14 @@ public class TennisCoach implements Coach {
 	public String getDailyFortune() {
 		return theFortuneService.getFortune();
 	}
+	
+	public void setupsth() {
+		System.out.println("do I create sth?");
+	}
+	
+	public void removesth() {
+		System.out.println("I'm removing probably");
+		
+	}
 
 }
